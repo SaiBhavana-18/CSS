@@ -1,0 +1,36 @@
+#container{
+    display:flex;
+    width:1250px;
+    padding:20px;
+    margin-inline: auto;
+    flex-wrap:wrap;
+    
+}
+#first{
+    padding:120px;
+    
+}
+#second{
+    padding:120px;
+    
+}
+#third{
+    padding:120px;
+    
+}
+#four{
+    padding:120px;
+    
+}
+#five{
+    padding:120px;
+    
+}
+#six{
+    padding:120px;
+   
+
+img{
+    width:200px;
+    height:300px;
+}
