@@ -1,65 +1,38 @@
-#container{
+body{
+    margin:0;
+    padding:0
+}
+#container {
     display: flex;
-    justify-content: first baseline;
-    
-   
-   
-}
-#first{
-    height:100px;
-    width:1280px;
-    margin:120px;
-    padding:120px;
-    gap:10px
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
     
 }
-#second{
-    padding:120px;
-    height:100px;
-    width:1280px;
-    margin:120px;
-    gap:10px
+div > img{
+    
+    width:400px;
     
 }
-#third{
-    height:100px;
-    width:1280px;
-    margin:120px;
-    padding:120px;
-    gap:10px
-}
-#four{
-    height:100px;
-    width:1280px;
-    margin:120px;
-    padding:120px
-    
-}
-#five{
-    height:100px;
-    width:1280px;
-    margin:120px;
-    padding:120px;
-    gap:10px
-    
-}
-#six{
-    height:100px;
-    width:1280px;
-    margin:120px;
-    padding:120px;
-    gap:10px
-    
-    
-   
-}
-img{
-    width:200px;
-    height:300px;
-}
-h2,p,button{
+#container>div{
+    margin-top: 50px;
     background-color: white;
-    text-align: center;
-    display: block;
-    
+    border:1px solid rgb(230,229,229);
 }
+#container h2,p{
+    
+    text-align: center;
+}
+button{
+    padding: 5px 15px;
+    background-color: #81d4fa;
+    border: none;
+    display: block;
+    margin-inline: auto
+}
+.down{
+    padding:20px
+}
+
